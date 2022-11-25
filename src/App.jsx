@@ -17,7 +17,6 @@ function App() {
       </div>
 
       <div className='flex-container-app'>
-
         <div className='ad-space'>
         </div>
 
@@ -28,12 +27,8 @@ function App() {
 
         <div className='ad-space'>
         </div>
-
       </div>
 
-
-
-      
     </div>
 
   )
