@@ -9,7 +9,7 @@ const StartScreenHeader = () => {
 
     <div className='flex-container'> 
         <div className='h-button-kevi'>
-            <a href='./kevi.site'>
+            <a href='https://www.kevi.site'>
               kevi.site
             </a>
         </div>
