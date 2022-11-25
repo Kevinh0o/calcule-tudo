@@ -1,0 +1,4 @@
+.regra-style{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}

@@ -1,0 +1,48 @@
+
+.select-app-button{
+    width: 200px;
+    height: 200px;
+
+    padding: 20px;
+    margin: 2px;
+
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+
+    transition: all 0.3s ease 0s;
+}
+
+.select-color{
+    width: auto;
+    height: 50%;
+
+    border-radius: 15px 15px 0px 0px;
+}
+
+.select-app-text{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+    width: auto;
+    height: 50%;
+
+
+    border-radius: 0px 0px 15px 15px;
+
+    color: rgb(0, 0, 0);
+}
+
+.select-app-button:hover {
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.277);
+    transform: translateY(-7px);
+  }
+  
+.select-app-button:active {
+    transform: translateY(-1px);
+  }

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans+Display:ital,wght@0,400;1,900&family=Oswald:wght@700&family=Staatliches&display=swap');
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #F0EFF3;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  margin: 20px;
+}
+
+p{
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: 600;
+}
+
+span{
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: 100;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 930px) {
+  .flex-container-app{
+    flex-direction: column;
+  }
+  .flex-container{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+  }
+  .h-button{
+    justify-self: end;
+    
+  }
+  .cta::before{
+    display: none;
+  }
+
+  .app-container{
+    width: 90%;
+  }
+  .app-flex-container{
+    justify-items: center;
+  }
+  .background-app{
+    height: auto;
+  }
+  .m-buttons {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    }
+    
+    .div1m { grid-area: 1 / 1 / 2 / 2; }
+    .div2m { grid-area: 1 / 2 / 2 / 3; }
+    .div3m { grid-area: 2 / 1 / 3 / 2; }
+    .div4m { grid-area: 2 / 2 / 3 / 3; }
+    .div5m { grid-area: 3 / 1 / 4 / 2; }
+    .div6m { grid-area: 3 / 2 / 4 / 3; }
+}
+
+@media (max-width: 420px){
+    .flex-container{
+      display: flex;
+      justify-content: space-between;
+    }
+    .button{
+      width: 90px;
+    }
+    .cta{
+      display: none;
+    }
+}
+@media (max-width: 420px){
+  .h-button-kevi{
+    width: 20px;
+    padding: 0px;
+  }
+  .h-button{
+    width: 50px;
+  }
+}
+
+@media only screen and(max-width: 310px){
+  .flex-container{
+    grid-template-columns: 2fr;
+    height: 200px;
+  }
+}

@@ -1,0 +1,13 @@
+.app-container{
+    width: 60%;
+}
+
+.flex-container-app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ad-space{
+    width: 20%;
+}
