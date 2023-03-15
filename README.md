@@ -2,6 +2,9 @@
 Aplicativo que resolve problemas matemáticos.
 
 <img src="./calcule-tudo.png" />
+<img src="./1.png" />
+<img src="./2.png" />
+
 
 ### Funcionalidades
 <ul>
