@@ -1,4 +1,4 @@
-# Print Dog Images
+# Calcule Tudo
 Aplicativo que resolve problemas matemáticos.
 
 <img src="./calcule-tudo.png" />
